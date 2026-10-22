@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Texas Home Remodeling & Property Contractors | DM&M Skyline</title>
+<link rel="icon" href="images/logo.jpg">
+<meta name="description" content="Need a contractor in Texas? DM&M Skyline Contractors brings remodeling, roofing, painting, plumbing, HVAC, and property improvements together.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#050506;--bg2:#0d0e12;--line:#22242c;--tx:#f4f5f7;--mu:#9ba0ac;--red:#e5262e;--blue:#2f63d1;color-scheme:dark;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+*,*::before,*::after{box-sizing:inherit;margin:0}
+html{scroll-behavior:smooth;scroll-padding-top:84px}
+body{background:var(--bg);color:var(--tx);font:400 17px/1.6 Barlow,system-ui,sans-serif;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+h1,h2,h3{font-family:'Barlow Condensed','Arial Narrow',sans-serif;font-weight:700;line-height:1;letter-spacing:.01em}
+h2{font-size:clamp(38px,5.5vw,64px);max-width:16ch}
+h3{font-size:26px}
+p{color:var(--mu)}
+a{color:inherit}
+:focus-visible{outline:2px solid var(--blue);outline-offset:3px}
+.wrap{width:min(1160px,100% - 40px);margin-inline:auto}
+section{padding:clamp(72px,10vw,130px) 0}
+.btn{display:inline-flex;align-items:center;gap:10px;padding:15px 28px;border:0;border-radius:999px;background:var(--red);color:#fff;font:600 16px Barlow,sans-serif;cursor:pointer;text-decoration:none;transition:transform .25s,background .25s,box-shadow .25s}
+.btn:hover{transform:translateY(-2px);background:#f23a42;box-shadow:0 10px 30px -10px var(--red)}
+.btn.ghost{background:transparent;border:1px solid #3a3d48}
+.btn.ghost:hover{background:#15171d;box-shadow:none}
+#prog{position:fixed;top:0;left:0;height:3px;width:100%;transform-origin:0 50%;transform:scaleX(0);background:linear-gradient(90deg,var(--red),var(--blue));z-index:60}
+header{position:fixed;top:0;left:0;right:0;z-index:50;padding-top:env(safe-area-inset-top,0px);transition:background .3s,border-color .3s;border-bottom:1px solid transparent}
+header.s{background:rgba(5,5,6,.82);backdrop-filter:blur(14px);border-color:var(--line)}
+.nav{display:flex;align-items:center;justify-content:space-between;height:72px}
+.nav img{height:54px;width:54px;mix-blend-mode:lighten;display:block}
+.nav ul{display:flex;gap:30px;list-style:none;padding:0}
+.nav ul a{text-decoration:none;font-weight:500;font-size:15px;color:var(--mu);transition:color .2s}
+.nav ul a:hover{color:#fff}
+.nav .btn{padding:10px 20px;font-size:15px}
+#menu{display:none;background:none;border:0;color:#fff;width:44px;height:44px;cursor:pointer}
+#menu span{display:block;width:24px;height:2px;background:#fff;margin:6px auto;transition:transform .3s,opacity .3s}
+.hero{min-height:100svh;display:flex;align-items:center;padding:120px 0 80px;position:relative;overflow:hidden}
+.hero::before{content:"";position:absolute;inset:auto -10% -30% 30%;height:70%;background:radial-gradient(closest-side,rgba(47,99,209,.28),transparent);pointer-events:none}
+.hero .wrap{display:grid;grid-template-columns:1.1fr .9fr;gap:40px;align-items:center;position:relative}
+.hero h1{font-size:clamp(56px,9.5vw,128px);text-transform:uppercase;line-height:.92}
+.hero h1 span{display:block;overflow:hidden}
+.hero h1 span i{display:block;font-style:normal;transform:translateY(105%);animation:up .9s cubic-bezier(.2,.8,.2,1) forwards}
+.hero h1 span:nth-child(2) i{animation-delay:.15s;color:transparent;-webkit-text-stroke:2px #fff}
+@keyframes up{to{transform:none}}
+.hero .lead{max-width:46ch;margin:28px 0 36px;font-size:19px;opacity:0;animation:fade .8s .6s forwards}
+.hero .cta{display:flex;gap:14px;flex-wrap:wrap;opacity:0;animation:fade .8s .8s forwards}
+@keyframes fade{to{opacity:1}}
+.sky{width:100%;height:auto;overflow:visible}
+.sky path{fill:none;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:1;stroke-dashoffset:1;animation:draw 2.4s .3s cubic-bezier(.5,0,.2,1) forwards}
+.sky .b{stroke:var(--blue);animation-delay:.7s}.sky .r{stroke:var(--red);animation-delay:1.1s}.sky .w{stroke:#fff}
+@keyframes draw{to{stroke-dashoffset:0}}
+.tag{margin-top:18px;font:600 15px Barlow;color:var(--mu);display:flex;align-items:center;gap:10px}
+.tag::before{content:"";width:34px;height:2px;background:var(--red)}
+.marq{border-block:1px solid var(--line);overflow:hidden;padding:18px 0;background:var(--bg2)}
+.marq div{display:flex;gap:48px;width:max-content;animation:mq 38s linear infinite;font:700 26px 'Barlow Condensed';color:#5d626f;text-transform:uppercase;white-space:nowrap}
+.marq b{color:var(--red);font-weight:700}
+@keyframes mq{to{transform:translateX(-50%)}}
+.head{display:flex;justify-content:space-between;align-items:end;gap:30px;flex-wrap:wrap;margin-bottom:48px}
+.head p{max-width:44ch}
+.builder{display:grid;grid-template-columns:1.5fr 1fr;gap:28px;align-items:start}
+.cat{margin-bottom:30px}
+.cat h3{font-size:22px;color:#c8ccd6;margin-bottom:14px;padding-left:14px;border-left:3px solid var(--blue)}
+.cat:nth-child(2) h3{border-color:var(--red)}
+.chips{display:flex;flex-wrap:wrap;gap:10px}
+.chip{padding:11px 18px;border:1px solid #30333d;border-radius:999px;background:transparent;color:#d8dbe3;font:500 16px Barlow;cursor:pointer;transition:all .22s}
+.chip:hover{border-color:#6a6f7d}
+.chip[aria-pressed=true]{background:#fff;color:#000;border-color:#fff}
+.chip[aria-pressed=true]::before{content:"\2713\00a0"}
+.plan{position:sticky;top:96px;background:linear-gradient(160deg,#14161d,#0b0c10);border:1px solid var(--line);border-radius:22px;padding:30px}
+.plan h3{margin-bottom:6px}
+.plan ul{list-style:none;padding:0;margin:18px 0 24px;min-height:70px}
+.plan li{padding:9px 0;border-bottom:1px solid var(--line);animation:fade .3s both;display:flex;justify-content:space-between}
+.plan li button{background:none;border:0;color:var(--mu);cursor:pointer;font-size:18px}
+.plan .empty{color:var(--mu);font-size:15px;border:0}
+.why{background:var(--bg2);border-block:1px solid var(--line)}
+.grid4{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--line);border:1px solid var(--line);border-radius:22px;overflow:hidden}
+.grid4>div{background:var(--bg2);padding:34px 28px;transition:background .3s}
+.grid4>div:hover{background:#13151b}
+.grid4 svg{width:34px;height:34px;stroke:var(--red);fill:none;stroke-width:1.8;margin-bottom:60px;display:block}
+.grid4 h3{margin-bottom:10px}
+.grid4 p{font-size:15.5px}
+.tx{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center}
+.tx h2{max-width:12ch}
+.tx .big{font:700 clamp(26px,3.4vw,40px)/1.1 'Barlow Condensed';text-transform:uppercase;margin-top:28px;color:#fff}
+.sun{aspect-ratio:1.2;border-radius:26px;position:relative;overflow:hidden;background:linear-gradient(180deg,#1b2f66 0%,#6a3a52 55%,#e5262e 120%);border:1px solid var(--line)}
+.sun::before{content:"";position:absolute;width:34%;aspect-ratio:1;border-radius:50%;left:50%;top:20%;translate:-50% 0;background:#ffd9a0;box-shadow:0 0 90px 30px rgba(255,160,90,.45);animation:sunr 8s ease-in-out infinite alternate}
+@keyframes sunr{to{translate:-50% 14%}}
+.sun svg{position:absolute;inset:auto 0 0;width:100%}
+.aud{display:flex;gap:10px;margin-bottom:26px;flex-wrap:wrap}
+.aud button{padding:12px 24px;border-radius:999px;border:1px solid #30333d;background:none;color:var(--mu);font:600 16px Barlow;cursor:pointer;transition:all .25s}
+.aud button[aria-selected=true]{background:var(--blue);border-color:var(--blue);color:#fff}
+.audp{max-width:640px;min-height:130px}
+.audp h3{font-size:clamp(30px,4vw,48px);color:#fff;margin-bottom:12px}
+.ba{background:var(--bg2);border-block:1px solid var(--line)}
+.seg{display:flex;gap:8px;margin-bottom:22px;flex-wrap:wrap}
+.seg button{padding:10px 20px;border-radius:999px;border:1px solid #30333d;background:none;color:var(--mu);font:600 15px Barlow;cursor:pointer}
+.seg button[aria-pressed=true]{background:#fff;color:#000;border-color:#fff}
+.cmp{position:relative;aspect-ratio:600/380;border-radius:24px;overflow:hidden;border:1px solid var(--line);user-select:none;touch-action:pan-y}
+.cmp svg{position:absolute;inset:0;width:100%;height:100%;display:block}
+#bef{clip-path:inset(0 50% 0 0)}
+.hd{position:absolute;top:0;bottom:0;left:50%;width:3px;background:#fff;pointer-events:none}
+.hd::after{content:"\2194";position:absolute;top:50%;left:50%;translate:-50% -50%;width:48px;height:48px;border-radius:50%;background:#fff;color:#000;display:grid;place-items:center;font-size:22px}
+.cmp input{position:absolute;inset:0;width:100%;height:100%;opacity:0;cursor:ew-resize;margin:0}
+.cmp:focus-within{outline:2px solid var(--blue);outline-offset:3px}
+.lb{position:absolute;bottom:16px;padding:6px 14px;border-radius:999px;background:rgba(0,0,0,.65);font:600 14px Barlow;pointer-events:none}
+.note{margin-top:16px;font-size:14px}
+.rev{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.card{background:#0e0f14;border:1px solid var(--line);border-radius:20px;padding:28px;display:flex;flex-direction:column;gap:16px;transition:transform .35s,border-color .35s}
+.card:hover{transform:translateY(-6px);border-color:#3a3e4b}
+.card .top{display:flex;justify-content:space-between;align-items:center}
+.stars{color:#f4a31c;letter-spacing:3px}
+.card em{font-style:normal;font-size:13px;padding:5px 12px;border-radius:999px;background:#1a1c23;color:#c8ccd6}
+.card p{color:#d8dbe3;font-size:16.5px}
+.card small{color:var(--mu);margin-top:auto}
+.est{background:var(--bg2);border-top:1px solid var(--line)}
+.est .wrap{display:grid;grid-template-columns:.8fr 1.2fr;gap:60px}
+form{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+label{display:grid;gap:6px;font-size:14px;font-weight:600;color:#c8ccd6}
+label.f{grid-column:1/-1}
+input:not([type=range]),select,textarea{width:100%;padding:14px 16px;border-radius:12px;border:1px solid #2c2f39;background:#08090c;color:#fff;font:400 16px Barlow}
+input:not([type=range]):focus,select:focus,textarea:focus{outline:none;border-color:var(--blue);box-shadow:0 0 0 3px rgba(47,99,209,.3)}
+textarea{min-height:110px;resize:vertical}
+.ct{margin-top:34px;display:grid;gap:6px}
+.ct a{font:700 34px 'Barlow Condensed';text-decoration:none}
+.ok{display:none;grid-column:1/-1;padding:16px;border-radius:12px;background:#10261a;color:#9be8b6;font-size:15px}
+footer{border-top:1px solid var(--line);padding:36px 0 44px;font-size:14px;color:var(--mu)}
+footer .wrap{display:flex;justify-content:space-between;align-items:center;gap:20px;flex-wrap:wrap}
+footer img{height:64px;mix-blend-mode:lighten}
+.rv{opacity:0;transform:translateY(26px);transition:opacity .8s,transform .8s cubic-bezier(.2,.7,.2,1)}
+.rv.in{opacity:1;transform:none}
+@media(max-width:900px){
+.hero .wrap,.builder,.tx,.est .wrap{grid-template-columns:1fr}
+.grid4{grid-template-columns:1fr 1fr}.rev{grid-template-columns:1fr}
+.plan{position:static}
+#menu{display:block}
+.nav ul{position:fixed;inset:72px 0 auto;flex-direction:column;gap:0;background:rgba(5,5,6,.97);padding:10px 20px 24px;border-bottom:1px solid var(--line);transform:translateY(-130%);transition:transform .4s;margin-top:env(safe-area-inset-top,0px)}
+.nav ul.o{transform:none}.nav ul a{display:block;padding:14px 0;font-size:19px}
+.nav>.btn{display:none}
+}
+@media(max-width:560px){.grid4{grid-template-columns:1fr}form{grid-template-columns:1fr}.grid4 svg{margin-bottom:30px}}
+@media(prefers-reduced-motion:reduce){*{animation-duration:.01s!important;animation-delay:0s!important;transition-duration:.01s!important}.rv{opacity:1;transform:none}html{scroll-behavior:auto}}
+.hp img{width:100%;aspect-ratio:4/5;object-fit:cover;object-position:50% 30%;border-radius:26px;border:1px solid var(--line);display:block;clip-path:inset(100% 0 0 0);animation:rev 1.3s .4s cubic-bezier(.7,0,.2,1) forwards}@keyframes rev{to{clip-path:inset(0)}}
+.cmp img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block}
+.gal{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:40px}
+.gal figure{position:relative;aspect-ratio:4/3;border-radius:18px;overflow:hidden;border:1px solid var(--line)}
+.gal img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .8s cubic-bezier(.2,.7,.2,1)}
+.gal figure:hover img{transform:scale(1.07)}
+.gal figcaption{position:absolute;left:0;right:0;bottom:0;padding:34px 18px 14px;background:linear-gradient(transparent,rgba(0,0,0,.78));font:700 22px 'Barlow Condensed';text-transform:uppercase;letter-spacing:.03em}
+@media(max-width:900px){.gal{grid-template-columns:1fr 1fr}}@media(max-width:560px){.gal{grid-template-columns:1fr}}
+.stk{position:relative;aspect-ratio:1.05;padding-top:60px}
+.stk .c{position:absolute;left:0;right:0;bottom:46px;top:60px;border-radius:22px;overflow:hidden;border:1px solid #2b2e38;box-shadow:0 30px 60px -25px #000;transform-origin:50% 100%;transition:transform 1s cubic-bezier(.65,0,.25,1),opacity 1s;cursor:pointer;will-change:transform}
+.stk .c img{width:100%;height:100%;object-fit:cover;display:block}
+.stk .c[data-p="0"]{z-index:4}
+.stk .c[data-p="1"]{z-index:3;transform:translateY(-22px) scale(.93);opacity:.8}
+.stk .c[data-p="2"]{z-index:2;transform:translateY(-42px) scale(.86);opacity:.5}
+.stk .c[data-p="3"]{z-index:1;transform:translateY(-58px) scale(.8);opacity:0}
+.stk .c[data-p="1"] img,.stk .c[data-p="2"] img{filter:brightness(.6)}
+.dots{position:absolute;left:0;right:0;bottom:8px;display:flex;justify-content:center;gap:10px}
+.dots button{width:34px;height:4px;border:0;border-radius:4px;background:#2f323c;padding:0;cursor:pointer;position:relative;overflow:hidden}
+.dots button.on::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,var(--red),var(--blue));transform-origin:0 50%;animation:fill var(--d,4.2s) linear forwards}
+.stk.pz .dots button.on::after{animation-play-state:paused}
+@keyframes fill{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+.own{margin-top:44px;padding-top:32px;border-top:1px solid var(--line)}
+.own>h3{font-size:clamp(28px,3.2vw,36px);margin-bottom:18px}
+.own .aud{margin-bottom:20px}
+.own .audp{min-height:150px}
+.own .audp h3{font-size:clamp(24px,2.6vw,32px);margin-bottom:10px}
+.tx{align-items:stretch}
+.stk{aspect-ratio:auto;padding:0;height:100%;min-height:440px;align-self:stretch}
+.stk .c{top:0;bottom:36px;left:0;right:64px;transform-origin:50% 50%}
+.stk .c[data-p="1"]{transform:translateX(34px) scale(.94);opacity:.85}
+.stk .c[data-p="2"]{transform:translateX(64px) scale(.88);opacity:.55}
+.stk .c[data-p="3"]{transform:translateX(84px) scale(.82);opacity:0}
+@media(max-width:900px){.stk{height:auto;aspect-ratio:1.05;min-height:0}}
+.cmp{aspect-ratio:3/2;max-width:1000px;margin-inline:auto}.seg{max-width:1000px;margin-inline:auto}
+.gal{grid-template-columns:repeat(4,1fr)}@media(max-width:900px){.gal{grid-template-columns:1fr 1fr}}@media(max-width:560px){.gal{grid-template-columns:1fr}}
+.seg{max-width:none}
+.ba2{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.ba2 figure{position:relative;border-radius:22px;overflow:hidden;border:1px solid var(--line)}
+.ba2 img{width:100%;height:100%;object-fit:cover;display:block}
+.ba2 figcaption{position:absolute;left:14px;bottom:14px;padding:6px 16px;border-radius:999px;background:rgba(0,0,0,.7);font:600 14px Barlow}
+.ba2 figure:last-child figcaption{background:var(--red)}
+@media(max-width:560px){.ba2{grid-template-columns:1fr}}
+.cmp{cursor:ew-resize}
+#bef,.cmp .hd{transition:clip-path .45s cubic-bezier(.2,.7,.2,1),left .45s cubic-bezier(.2,.7,.2,1)}
+.cmp.mv #bef,.cmp.mv .hd{transition:none}
+.hero .wrap{z-index:1}
+.hp img#hi{display:none}
+.hp{align-self:end;justify-self:end;text-align:right}
+.hp .tag{justify-content:flex-end;color:#d8dbe3;text-shadow:0 2px 12px #000}
+.hbg{position:absolute;inset:0 0 0 16%;overflow:hidden;-webkit-mask-image:linear-gradient(90deg,transparent 0,rgba(0,0,0,.35) 26%,#000 64%);mask-image:linear-gradient(90deg,transparent 0,rgba(0,0,0,.35) 26%,#000 64%)}
+.hbg img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:60% 50%;opacity:0;transform:scale(1.07);transition:opacity 1.8s ease,transform 8s ease-out}
+.hbg img.on{opacity:1;transform:scale(1)}
+.hbg::after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,#050506 0,transparent 32%),linear-gradient(180deg,rgba(5,5,6,.6),transparent 24%)}
+@media(max-width:900px){.hbg{inset:0;-webkit-mask-image:linear-gradient(180deg,rgba(0,0,0,.4),rgba(0,0,0,.5) 55%,transparent);mask-image:linear-gradient(180deg,rgba(0,0,0,.4),rgba(0,0,0,.5) 55%,transparent)}.hp{justify-self:start;text-align:left}.hp .tag{justify-content:flex-start}}
+.grid4>div{padding:0 0 30px;overflow:hidden}
+.grid4 h3,.grid4 p{padding-inline:26px}
+.ph{width:100%;height:190px;object-fit:cover;display:block;margin:0 0 24px;transition:transform .9s cubic-bezier(.2,.7,.2,1)}
+.grid4>div:hover .ph{transform:scale(1.06)}
+.grid4 svg.ph{width:100%;height:190px;stroke:none;stroke-width:1;margin:0 0 24px;display:block;background:linear-gradient(160deg,#101a33,#0b0c10)}
+</style>
+</head>
+<body>
+<div id="prog"></div>
+<header id="hd"><div class="wrap nav">
+<a href="#top" aria-label="DM&M Skyline Contractors home"><img src="images/logo.jpg" alt="DM&M Skyline Contractors logo"></a>
+<ul id="nl"><li><a href="#services">Services</a></li><li><a href="#why">Approach</a></li><li><a href="#texas">Texas</a></li><li><a href="#projects">Projects</a></li><li><a href="#reviews">Reviews</a></li></ul>
+<a class="btn" href="#estimate">Get a free estimate</a>
+<button id="menu" aria-label="Open menu" aria-expanded="false"><span></span><span></span></button>
+</div></header>
+
+<main id="top">
+<div class="hero"><div class="hbg" id="hbg" aria-hidden="true"></div><div class="wrap">
+<div>
+<h1><span><i>One contractor.</i></span><span><i>Every solution.</i></span></h1>
+<p class="lead">Property improvements, repairs, and renovations, managed in one place. DM&M Skyline Contractors helps Texas homeowners, property managers, and real estate investors coordinate projects through a single contractor relationship.</p>
+<div class="cta"><a class="btn" href="#estimate">Get a free estimate</a><a class="btn ghost" href="#services">Plan your project</a></div>
+</div>
+<div class="hp">
+<img id="hi" alt="Modern two-storey home exterior">
+<p class="tag">Built for Texas homes. Designed for Texas weather.</p>
+</div>
+</div></div>
+
+<div class="marq" aria-hidden="true"><div><span>Remodeling</span><b>/</b><span>Roofing</span><b>/</b><span>Painting</span><b>/</b><span>Plumbing</span><b>/</b><span>HVAC</span><b>/</b><span>Electrical</span><b>/</b><span>Epoxy Flooring</span><b>/</b><span>Artificial Grass</span><b>/</b><span>Remodeling</span><b>/</b><span>Roofing</span><b>/</b><span>Painting</span><b>/</b><span>Plumbing</span><b>/</b><span>HVAC</span><b>/</b><span>Electrical</span><b>/</b><span>Epoxy Flooring</span><b>/</b><span>Artificial Grass</span><b>/</b></div></div>
+
+<section id="services"><div class="wrap">
+<div class="head rv"><h2>Property services, all under one roof</h2><p>From individual repairs to larger renovations, we help you coordinate the work your property needs. Pick the improvements you want to plan.</p></div>
+<div class="builder rv">
+<div id="svc"></div>
+<aside class="plan" aria-live="polite"><h3>Your project plan</h3><p id="pc">Select services to start.</p><ul id="pl"></ul><a class="btn" href="#estimate">Request estimate</a></aside>
+</div>
+</div></section>
+
+<section id="why" class="why"><div class="wrap">
+<div class="head rv"><h2>One starting point for the whole project</h2><p>Integrated services, professional project management, and Texas-focused planning keep connected work on track.</p></div>
+<div class="grid4 rv">
+<div><img class="ph" data-k="scope" alt="Team reviewing project blueprints"><h3>Clear scope</h3><p>Understand the proposed work and costs before getting started.</p></div>
+<div><img class="ph" data-k="coord" alt="Team coordinating a build around plans and a site model"><h3>Coordinated work</h3><p>Plan connected services together to reduce unnecessary scheduling complications.</p></div>
+<div><img class="ph" data-k="comm" alt="Team meeting and celebrating together"><h3>Reliable communication</h3><p>Know what is planned, what is happening, and what comes next.</p></div>
+<div><img class="ph" data-k="std" alt="Umbrella protecting two model houses"><h3>Consistent standards</h3><p>Keep the project focused on agreed requirements and quality expectations.</p></div>
+</div></div></section>
+
+<section id="texas"><div class="wrap tx">
+<div class="rv"><h2>Built for Texas properties</h2><p style="margin-top:22px;max-width:46ch">Texas heat, storms, and changing property conditions require thoughtful planning. We help owners weigh local heat, storms, drainage, and property conditions when choosing repairs, renovations, materials, and outdoor improvements.</p><div class="big">Built for Texas homes.<br>Designed for Texas weather.</div>
+<div class="own rv"><h3>Solutions for every owner</h3><div class="aud" role="tablist"><button role="tab" aria-selected="true" data-i="0">Homeowners</button><button role="tab" aria-selected="false" data-i="1">Property managers</button><button role="tab" aria-selected="false" data-i="2">Real estate investors</button></div><div class="audp" id="ap"></div></div></div>
+<div class="stk rv" id="stk" aria-roledescription="carousel" aria-label="Modern Texas home styles"></div>
+</div></section>
+
+
+<section id="projects" class="ba"><div class="wrap">
+<div class="head rv"><h2>Property improvements, made visible</h2><p>See the before and after. Every project begins with a need.</p></div>
+<div class="rv">
+<div class="seg" id="sg"><button aria-pressed="true" data-k="0">Kitchen remodel</button><button aria-pressed="false" data-k="1">Bathroom remodel</button></div>
+<div class="ba2" id="ba2"></div>
+<div class="gal rv" id="gal"></div>
+<div style="margin-top:26px"><a class="btn" href="#estimate">Planning a similar project? Get an estimate</a></div>
+</div></div></section>
+
+<section id="reviews"><div class="wrap">
+<div class="head rv"><h2>What customers value</h2><p>Feedback on our approach to remodeling, repairs, and project coordination.</p></div>
+<div class="rev rv">
+<div class="card"><div class="top"><span class="stars">★★★★★</span><em>Interior Painting</em></div><p>“A fresh coat of paint can make a big difference. We wanted a cleaner, more updated look throughout the space, and the finish was the most important part of the job. The result gave the rooms a refreshed appearance.”</p><small>Sample painting review</small></div>
+<div class="card"><div class="top"><span class="stars">★★★★★</span><em>Roofing</em></div><p>“When it comes to roofing, you want to understand what needs attention and what the work will involve. Clear explanations and communication make a real difference when making decisions about your property.”</p><small>Sample roofing review</small></div>
+<div class="card"><div class="top"><span class="stars">★★★★★</span><em>Home Remodeling</em></div><p>“We wanted to update our home without dealing with several different contractors. Having one team coordinate the work made the process much easier. Communication and attention to detail were especially important to us.”</p><small>Sample homeowner review</small></div>
+<div class="card"><div class="top"><span class="stars">★★★★★</span><em>Kitchen Remodeling</em></div><p>“Our kitchen needed a fresh, more functional layout. The goal was to improve the space while keeping the design practical. We’re pleased with the direction of the transformation and how the details came together.”</p><small>Sample kitchen review</small></div>
+<div class="card"><div class="top"><span class="stars">★★★★★</span><em>Property Maintenance</em></div><p>“Having a contractor who can help with multiple property needs is convenient. Instead of coordinating every task separately, we could discuss the work through one point of contact and plan the next steps more efficiently.”</p><small>Sample property maintenance review</small></div>
+</div></div></section>
+
+<section id="estimate" class="est"><div class="wrap">
+<div class="rv"><h2>Tell us what your property needs</h2><p style="margin-top:20px;max-width:38ch">Tell us what needs work, and let’s discuss the right next step.</p>
+<div class="ct"><span>Call us</span><a href="tel:+13467738311">346-773-8311</a></div></div>
+<form id="fm" class="rv">
+<label>Full name<input name="name" required autocomplete="name"></label>
+<label>Phone number<input name="phone" type="tel" required autocomplete="tel"></label>
+<label>Email address<input name="email" type="email" autocomplete="email"></label>
+<label>Property ZIP code<input name="zip" inputmode="numeric" pattern="[0-9]{5}" required></label>
+<label>Property type<select name="ptype"><option>Single-family home</option><option>Condo or townhome</option><option>Rental property</option><option>Multi-unit</option><option>Commercial</option></select></label>
+<label>I am a<select name="ctype"><option>Homeowner</option><option>Property manager</option><option>Investor</option></select></label>
+<label class="f">Services required<div class="chips" id="fsvc" style="margin-top:4px"></div></label>
+<label class="f">Project description<textarea name="desc"></textarea></label>
+<label>Preferred start date<input name="start" type="date"></label>
+<div style="display:flex;align-items:end"><button class="btn" type="submit" style="width:100%;justify-content:center">Submit estimate request</button></div>
+<div class="ok" id="ok">Sending...</div>
+</form>
+</div></section>
+</main>
+
+<footer><div class="wrap"><img src="images/logo.jpg" alt="DM&M Skyline Contractors"><span>Homeowners · Property managers · Real estate investors across Texas</span><a href="tel:+13467738311">346-773-8311</a></div></footer>
+
+<script>const IM={"std": "images/std.jpg","scope": "images/scope.jpg", "coord": "images/coord.jpg", "comm": "images/comm.jpg","exterior": "images/exterior.jpg", "kitB": "images/kitB.jpg", "kitA": "images/kitA.jpg", "bathB": "images/bathB.jpg", "bathA": "images/bathA.jpg", "epoxy": "images/epoxy.jpg", "painted": "images/painted.jpg", "roof": "images/roof.jpg", "grass": "images/grass.jpg", "gazebo": "images/gazebo.jpg", "hero": "images/hero.jpg"};</script>
+<script>
+const $=s=>document.querySelector(s),$$=s=>[...document.querySelectorAll(s)];
+const CATS={'Remodeling':['Kitchen Remodeling','Bathroom Remodeling','Interior Decoration'],'Repairs & Property Systems':['Roofing','Electrical Services','Plumbing','HVAC','Drywall Repair'],'Flooring & Exterior Improvements':['Interior & Exterior Painting','Epoxy Flooring','Pressure Washing','Artificial Grass Installation','Gazebo Installation']};
+const sel=new Set();
+function chips(el,groups){el.innerHTML='';(groups?Object.entries(CATS):[['',Object.values(CATS).flat()]]).forEach(([t,a])=>{const d=document.createElement('div');if(groups){d.className='cat';d.innerHTML='<h3>'+t.replace('&','&amp;')+'</h3>'}const c=document.createElement('div');c.className='chips';a.forEach(n=>{const b=document.createElement('button');b.type='button';b.className='chip';b.textContent=n;b.setAttribute('aria-pressed',sel.has(n));b.onclick=()=>{sel.has(n)?sel.delete(n):sel.add(n);render()};c.appendChild(b)});d.appendChild(c);el.appendChild(d)})}
+function render(){chips($('#svc'),true);chips($('#fsvc'),false);const l=$('#pl');l.innerHTML=sel.size?'':'<li class="empty">Nothing selected yet.</li>';sel.forEach(n=>{const li=document.createElement('li');li.textContent=n;const x=document.createElement('button');x.type='button';x.setAttribute('aria-label','Remove '+n);x.textContent='×';x.onclick=()=>{sel.delete(n);render()};li.appendChild(x);l.appendChild(li)});$('#pc').textContent=sel.size?sel.size+(sel.size>1?' services':' service')+' in one coordinated plan.':'Select services to start.'}
+render();
+const AUD=[['Improve your home without the headache.','Skip coordinating several contractors. Plan remodeling, repairs, and upgrades through one team and one point of contact.'],['Organize repairs and turnovers.','Handle recurring property needs and turnover improvements through one contractor relationship.'],['Coordinate renovation scopes.','Prepare rental properties and fix-and-flip projects with connected scopes, clear pricing, and a single plan.']];
+function aud(i){$('#ap').innerHTML='<h3>'+AUD[i][0]+'</h3><p>'+AUD[i][1]+'</p>';$$('.aud button').forEach((b,j)=>b.setAttribute('aria-selected',i==j))}
+$$('.aud button').forEach(b=>b.onclick=()=>aud(+b.dataset.i));aud(0);
+const PR=[['kitB','kitA','Kitchen before','Kitchen after','1/1','760px'],['bathB','bathA','Bathroom before','Bathroom after','3/2','1000px']];
+function sc(k){$('#ba2').innerHTML=[0,1].map(i=>'<figure style="aspect-ratio:'+PR[k][4]+'"><img alt="'+PR[k][2+i]+'" src="'+IM[PR[k][i]]+'"><figcaption>'+(i?'After':'Before')+'</figcaption></figure>').join('');$$('#sg button').forEach(b=>b.setAttribute('aria-pressed',+b.dataset.k==k))}
+$$('#sg button').forEach(b=>b.onclick=()=>sc(+b.dataset.k));sc(0);
+$('#hi').src=IM.hero;
+$('#gal').innerHTML=[['exterior','Exterior upgrades'],['kitA','Kitchen remodeling'],['bathA','Bathroom remodeling'],['roof','Roofing'],['epoxy','Epoxy flooring'],['painted','Interior painting'],['grass','Artificial grass'],['gazebo','Gazebo installation']].map(a=>'<figure><img loading="lazy" alt="'+a[1]+'" src="'+IM[a[0]]+'"><figcaption>'+a[1]+'</figcaption></figure>').join('');
+
+const hd=$('#hd'),pg=$('#prog');
+function sc2(){const y=scrollY;hd.classList.toggle('s',y>20);pg.style.transform='scaleX('+(y/Math.max(1,document.documentElement.scrollHeight-innerHeight))+')'}
+addEventListener('scroll',sc2,{passive:true});sc2();
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{threshold:.12});
+$$('.rv').forEach(e=>io.observe(e));
+const m=$('#menu'),nl=$('#nl');m.onclick=()=>{const o=nl.classList.toggle('o');m.setAttribute('aria-expanded',o)};
+nl.onclick=e=>{if(e.target.tagName=='A'){nl.classList.remove('o');m.setAttribute('aria-expanded',false)}};
+const SUPABASE_URL='YOUR_SUPABASE_URL',SUPABASE_ANON_KEY='YOUR_SUPABASE_ANON_KEY';
+$('#fm').onsubmit=async e=>{e.preventDefault();const f=new FormData(e.target),ok=$('#ok'),btn=e.target.querySelector('button[type=submit]');
+const row={full_name:f.get('name'),phone:f.get('phone'),email:f.get('email')||null,zip_code:f.get('zip'),property_type:f.get('ptype'),customer_type:f.get('ctype'),services:[...sel],description:f.get('desc')||null,preferred_start:f.get('start')||null};
+ok.style.display='block';
+if(SUPABASE_URL.startsWith('YOUR_')){ok.textContent='Supabase is not set up yet. Add your project URL and anon key near the bottom of index.html.';return}
+btn.disabled=true;
+try{const r=await fetch(SUPABASE_URL+'/rest/v1/estimate_requests',{method:'POST',headers:{'Content-Type':'application/json',apikey:SUPABASE_ANON_KEY,Authorization:'Bearer '+SUPABASE_ANON_KEY,Prefer:'return=minimal'},body:JSON.stringify(row)});if(!r.ok)throw new Error(r.status);e.target.reset();sel.clear();render();ok.textContent='Thank you! Your estimate request was received. We will contact you shortly.'}catch(_){ok.textContent='Something went wrong. Please call us on 346-773-8311.'}btn.disabled=false};
+</script>
+<script>
+(function(){const D=[["images/stack-1.jpg", "Modern white two-storey home"], ["images/stack-2.jpg", "Contemporary home with gabled glass and brick"], ["images/stack-3.jpg", "Modern home with timber cladding and entry canopy"], ["images/stack-4.jpg", "Glass-fronted home with deck and garden"]],el=document.getElementById('stk');if(!el)return;const n=D.length;let cur=0,t,cs=[],ds=[];
+const dots=document.createElement('div');dots.className='dots';
+D.forEach((d,i)=>{const c=document.createElement('div');c.className='c';c.innerHTML='<img alt="'+d[1]+'" src="'+d[0]+'">';c.onclick=()=>go((cur+1)%n);el.appendChild(c);cs.push(c);const b=document.createElement('button');b.setAttribute('aria-label','Show photo '+(i+1));b.onclick=()=>go(i);dots.appendChild(b);ds.push(b)});
+el.appendChild(dots);
+function draw(){cs.forEach((c,i)=>c.dataset.p=(i-cur+n)%n);ds.forEach((b,i)=>{b.classList.remove('on');void b.offsetWidth;b.classList.toggle('on',i==cur)})}
+function go(i){cur=i;draw();play()}
+const rm=matchMedia('(prefers-reduced-motion:reduce)').matches;
+function play(){clearTimeout(t);if(!rm)t=setTimeout(()=>go((cur+1)%n),4200)}
+el.onmouseenter=()=>{clearTimeout(t);el.classList.add('pz')};el.onmouseleave=()=>{el.classList.remove('pz');go(cur)};
+draw();play();})();
+</script>
+<script>(function(){const h=document.getElementById('hbg');if(!h)return;const src=[IM.hero,...[...document.querySelectorAll('#stk .c img')].map(i=>i.src)];const im=src.map(s=>{const e=new Image();e.alt='';e.src=s;h.appendChild(e);return e});let c=0;im[0].classList.add('on');if(matchMedia('(prefers-reduced-motion:reduce)').matches)return;setInterval(()=>{im[c].classList.remove('on');c=(c+1)%im.length;im[c].classList.add('on')},6000)})();</script>
+<script>document.querySelectorAll('.ph').forEach(i=>{i.src=IM[i.dataset.k]});</script>
+</body>
+</html>
